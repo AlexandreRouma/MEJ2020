@@ -18,7 +18,8 @@ function run() {
 
     ctx.strokeStyle = '#d2dae2';
     ctx.lineWidth = 4;
-    ctx.beginPath(); 
+    ctx.beginPath();
+    
     ctx.moveTo(0,400);
     ctx.lineTo(800,400);
     ctx.stroke();
